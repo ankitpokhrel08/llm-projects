@@ -1,20 +1,24 @@
-# Fine-tuning Llama-2-7b-chat-hf with QLoRA
+# LLM Projects Repository
 
-This repository demonstrates fine-tuning the **meta-llama/Llama-2-7b-chat-hf** model using **QLoRA** (Quantized Low-Rank Adaptation) on a custom dataset from the Bhagavad Gita, creating an AI Krishna that responds with spiritual wisdom.
+This repository contains various Large Language Model (LLM) projects and concepts that I built during my learning phase. Each project explores different aspects of LLM development, fine-tuning, and practical applications.
 
-## What This Project Does
+## Projects Overview
 
-**Fine-tuning** = Taking a pre-trained model and teaching it domain-specific knowledge without full retraining
+### 1. [Llama-2-7b Fine-tuning](finetuning_Llama-2-7b-chat-hf/)
 
-**QLoRA** = Memory-efficient training using:
+Fine-tuning Llama-2-7b-chat model on religious/philosophical text (Bhagavad Gita).
 
-- 4-bit quantization for the base model
-- Low-rank adapters for trainable parameters
-- Smart memory management for consumer GPUs
+### 2. [YouTube Video Transcription & Summarization](youtube_video_transcribe/)
 
-## Core Workflow
-![Workflow Diagram](flowdiagram.png)
+AI-powered tool for extracting transcripts from YouTube videos and generating intelligent summaries using Google Gemini AI.
 
-![Fine-tuned Krishna AI Response](output.png)
+## Learning Objectives
 
-**For detailed code explanation**: [Fine-tuning Llama2-7b on Personal Dataset](https://medium.com/@pokhrelankit/fine-tuning-llama2-7b-on-personal-dataset-code-explanation-provided-4bcbfe956b3e?postPublishedType=repub)
+Through these projects, I explored:
+
+- Fine-tuning pre-trained language models
+- Working with different data formats and sources
+- API integration and usage
+- Model evaluation and comparison
+- Practical LLM applications
+- Resource optimization techniques
