@@ -12,6 +12,10 @@ Fine-tuning Llama-2-7b-chat model on religious/philosophical text (Bhagavad Gita
 
 AI-powered tool for extracting transcripts from YouTube videos and generating intelligent summaries using Google Gemini AI.
 
+### 3. [Image Captioning](image_captioning/)
+
+Image captioning project using Transfer Learning of xception model and LSTM for caption generation
+
 ## Learning Objectives
 
 Through these projects, I explored:
