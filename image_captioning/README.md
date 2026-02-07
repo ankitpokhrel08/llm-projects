@@ -15,3 +15,5 @@ Xception is a deep convolutional network pre-trained on ImageNet. We use it as a
 The caption model is an LSTM-based sequence generator that takes image features and generates text one word at a time.
 
 The image features and LSTM features are merged through simple addition, creating a combined representation that informs the next word prediction.
+
+Deployed: [Test](https://image-caption-ankit.streamlit.app/)
