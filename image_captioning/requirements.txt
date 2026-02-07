@@ -9,4 +9,3 @@ tqdm
 
 # Note: torchvision is a dependency of timm but not directly imported in main.py
 # It will be installed automatically as a timm dependency
-r
